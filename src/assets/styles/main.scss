@@ -1,0 +1,21 @@
+p,
+span,
+ul,
+li,
+div {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+}
+
+body {
+  font-size: 13px;
+  font-family: "PingFangSC", "PingFangSC-Regular";
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: #e1e3ea;
+  margin: 10px 0 10px 0;
+}

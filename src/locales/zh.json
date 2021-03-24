@@ -1,0 +1,9 @@
+{
+  "message": "I18n 测试信息",
+  "details": "详情",
+  "chainName": "联盟链名称",
+  "consortiumName": "联盟名称",
+  "chainType": "联盟链类型",
+  "auditType": "审批类型",
+  "operate": "操作"
+}

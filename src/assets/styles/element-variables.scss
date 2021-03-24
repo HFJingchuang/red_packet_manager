@@ -1,0 +1,102 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+//$--color-primary: teal;
+
+/* icon font path, required */
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+@import "../../../node_modules/element-ui/packages/theme-chalk/src/index";
+
+@each $type in (success, warning, error, info) {
+  .el-message--#{$type} {
+    padding: 10px;
+    border-radius: 6px;
+    .el-message__icon {
+      margin-right: 9px;
+    }
+    i {
+      font-size: 16px;
+    }
+    p {
+      line-height: 20px;
+      letter-spacing: 0px;
+    }
+  }
+}
+.el-message--error {
+  background: #fff2f1;
+  border: 1px solid #fce5e5;
+  i {
+    color: #f34f38;
+  }
+  p {
+    color: #f44f38;
+  }
+}
+
+.el-message--success {
+  background: #f4fbf0;
+  border: 1px solid #e4f6de;
+  i {
+    color: #59c168;
+  }
+  p {
+    color: #04c067;
+  }
+}
+
+.el-message--warning {
+  background: #fdf6ec;
+  border: 1px solid #f8ecda;
+  i {
+    color: #e6a13b;
+  }
+  p {
+    color: #e6a13b;
+  }
+}
+
+.el-message--info {
+  background: #effaff;
+  border: 1px solid #d8f3fc;
+  .el-message__closeBtn {
+    color: #5bbaee;
+  }
+}
+.el-message--info .el-message__content {
+  color: #5bbaee;
+}
+.el-message .el-icon-info {
+  color: #5bbaee;
+}
+
+.el-table::before {
+  height: 0px;
+}
+
+.el-table__fixed::before,
+.el-table__fixed-right::before {
+  height: 0px;
+}
+
+.el-textarea__inner {
+  font-size: 13px;
+  line-height: 2;
+  color: #393939;
+}
+.el-input__inner {
+  font-size: 13px;
+  color: #393939;
+}
+
+.el-tooltip__popper {
+  max-width: 850px;
+}
+
+.el-table,
+.el-tabs__item {
+  font-size: 13px;
+}

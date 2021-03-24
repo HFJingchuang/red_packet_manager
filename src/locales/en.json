@@ -1,0 +1,9 @@
+{
+  "message": "I18N Test Message",
+  "details": "details",
+  "chainName": "Chain Name",
+  "consortiumName": "Consortium Name",
+  "chainType": "Chain Type",
+  "auditType": "Audit Type",
+  "operate": "Operate"
+}

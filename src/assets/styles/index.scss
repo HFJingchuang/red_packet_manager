@@ -1,0 +1,67 @@
+@import "./variables.scss";
+@import "./main.scss";
+@import "./iconfont";
+
+// 审批详情--不通过按钮样式
+.audit-no-pass-btn {
+  font-size: 13px;
+  margin: 0px 40px;
+  color: #ffffff;
+  width: 140px;
+  height: 40px;
+  background: #f44f38;
+  border-radius: 4px;
+  border: 0;
+  &:hover {
+    background: #f44f38;
+    color: #ffffff;
+  }
+  &:focus {
+    background: #f44f38;
+    color: #ffffff;
+  }
+}
+// 审批详情--通过按钮样式
+.audit-pass-btn {
+  font-size: 13px;
+  margin: 0px 40px;
+  color: #ffffff;
+  width: 140px;
+  height: 40px;
+  background: #04c067;
+  border-radius: 4px;
+  border: 0px;
+  &:hover {
+    background: #04c067;
+    color: #ffffff;
+  }
+  &:focus {
+    background: #04c067;
+    color: #ffffff;
+    border: 0px;
+  }
+}
+.el-form-item__label {
+  text-align: left;
+  vertical-align: middle;
+  float: left;
+  font-size: 13px;
+  font-weight: 600;
+  color: #505050;
+  line-height: 40px;
+  padding: 0 12px 0 0;
+  box-sizing: border-box;
+}
+.el-textarea__inner {
+  &::placeholder {
+    height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    color: #c0c2c6;
+    line-height: 30px;
+  }
+}
+.el-select-dropdown__item {
+  font-size: 13px;
+}
